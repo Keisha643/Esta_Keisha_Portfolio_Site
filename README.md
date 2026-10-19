@@ -1,4 +1,4 @@
-# EKeisha Esta's Portfolio Website
+# Keisha Esta's Portfolio Website
 For level 3, I will design and construct my professional portfolio website. This site will not only showcase my technical and visual design skills but also in presenting myself to future clients and employers.
 ## Installation
 No installation required. Simply download the zip file and extract
