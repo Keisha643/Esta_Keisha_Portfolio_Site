@@ -9,33 +9,41 @@
 </head>
 
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <header>
-    <nav>
-        <h2>Main Navigation</h2>
-        <p>Logo</p>
+    <h1 class="visually-hidden">Welcome to My Portfolio</h1> 
+
+<!-- HEADER -->
+        <header id="main-header" class="grid-con center-grid-con">
+    <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+        <h2 class="visually-hidden">Main Navigation</h2>
         <ul>
             <li><a href="index.html">About</a></li>
             <li><a href="#">Project</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
         </ul>
     </nav>
+
+    <div id="logo" class="col-span-full m-col-end-4">
+        <p>Logo Here</p>
+    </div>
 </header>
 
 <main>
-    <section>
-        <h2>Introduction</h2>
+
+<!-- HERO -->
+    <section id="main-hero" class="full-width-grid-con">
+        <h2 class="visually-hidden">Introduction</h2>
         <p>Hello!</p>
         <p>My name is Keisha Emylaine Esta</p>
     </section>
 
-    <section>
-        <h2>Demo Reel Video</h2>
+
+<!-- DEMO REEL -->
+    <section id="hero-video" class="grid-con center-grid-con">
+        <h2 class="visually-hidden">Demo Reel Video</h2>
         <p>Demo Reel Video</p>
     </section>
     
-    <section>
+    <section id="project-sect" class="grid-con center-grid-con">
         <h2>Projects</h2>
         <h3>Level 1</h3>
         <ul>
@@ -66,47 +74,28 @@
         </ul>
     </section>
 
-    <section>
-        <h2>Contact Form</h2>
-        <h3>Impressed with my works? Contact me and let's create even more projects!</h3>
-        <form>
-            <div>
-                <label for="name">Name</label>
-                <input type="text" name="name" required>
-            </div>
 
-            <br>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="number">Mobile Number</label>
-                <input type="number" name="number" required>
-            </div>
-
-            <br>
-
-            <div>
-                <label for="message">Message</label>
-                <textarea name="message" required></textarea>
-            </div>
-
-            <br>
-
-            <button type="submit">Submit</button>
-        </form>
+<!-- CONTACT FORM -->
+    <section id="contact-form" class="grid-con center-grid-con">
+        <h2>Contact</h2>
+        <h3>Impressed with my works? Contact me and we can create even more projects!</h3>
+        <form action="#" method="POST" enctype="text/plain">
+            <p>Name</p>
+                        <input name="fullName" type="text" placeholder="First & Last Name">
+            <p>Email</p>
+                        <input name="contactInfo" type="text" required placeholder="i.e. firstlastname@gmail.com">
+            <p>Message</p>
+                        <textarea name="msg" placeholder="Got any projects for me?"></textarea>
+                        <input name="submit" type="submit" value="Submit">
+                    </form>
     </section>
 
 </main>
     
-<footer>
-    <h2>Portfolio Footer</h2>
-    <nav>
+<!-- FOOTER -->
+<footer id="main-footer" class="grid-con center-grid-con">
+    <h2 class="visually-hidden">Portfolio Footer</h2>
+    <nav id="footer-nav" class="col-span-full m-col-start-6 m-col-end-9 l-col-start-5 l-col-end-8">
     <p>Logo</p>
         <ul>
             <li><a href="index.html">About</a></li>
