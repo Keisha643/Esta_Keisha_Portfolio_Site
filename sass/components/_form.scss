@@ -1,0 +1,40 @@
+@use '../abstracts';
+
+#contact-form {
+    padding: 5px 0;
+}
+
+#contact-form h2 {
+    font-size: 36px;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+input[type="submit"] {
+        cursor: pointer;
+        border: none;
+        background-color: #222;
+        color: white;
+        transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #444;
+    }

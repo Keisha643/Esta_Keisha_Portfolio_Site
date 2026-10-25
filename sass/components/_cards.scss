@@ -1,0 +1,28 @@
+@use '../abstracts';
+
+#project-sect {
+    padding: 50px 0;
+}
+
+#project-sect h2 {
+    font-size: 36px;
+}
+
+#project-sect h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#project-sect ul li {
+    display: block;
+    text-align: center;
+    list-style: none;
+
+}
+
+.project-card {
+    background: #323232;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
